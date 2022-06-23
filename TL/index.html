@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Mishka</title>
+    <link rel="shortcut icon" href="img/icon.ico">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="img/mishka-logo-desktop.svg" alt="Логотип">
+        </div>
+        <nav class="header__menu">
+            <a href="#" class="header__link header__link--upper">Каталог товаров</a>
+            <a href="#" class="header__link header__link--upper">Вязание на заказ</a>
+            <a href="#" class="header__link header__link--lower">Новые поступления</a>
+            <a href="#" class="header__link header__link--lower">Распродажа</a>
+        </nav> 
+        <p><a href="#" class="header__button header__button--search">
+            <img src="img/search.svg" alt="Поиск">
+        </a></p>
+        <p><a href="#" class="header__button header__button--cart">
+            <img src="img/cart.svg" alt="Корзина">
+            Корзина: пока пуста
+        </a></p>
+        <p class="header__text">Бесплатная доставка по России</p>  
+    </header>
+    <main class="main-content">
+        <div class="promo-part">
+            <h1 class="promo-part__title">Милые штуки ручной работы для дома</h1>
+            <picture class="promo-part__img">
+                <!-- <source type="image/webp" media="(min-width: 1200px)"
+                        srcset="img/main-city-desktop@1x.webp 1x, img/main-city-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)"
+                        srcset="img/main-city-tablet@1x.webp 1x, img/main-city-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/main-city-mobile@1x.webp 1x, img/main-city-mobile@2x.webp 2x"> -->
+                <source media="(min-width: 1200px)" srcset="img/hero/hero-desktop@1x.jpg 1x, img/hero/hero-desktop@1x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/hero/hero-tablet@1x.jpg 1x, img/hero/hero-tablet@2x.jpg 2x">
+                <img src="img/hero/hero-mobile@1x.jpg" srcset="img/hero/hero-mobile@2x.jpg 2x" width="569" height="373" alt="Домик">
+            </picture>
+            <div class="promo-part__interior-item">
+                <p class="promo-part__text">Предметы интерера</p>
+                <img class="promo-part__img" src="img/interior.svg" alt="Лампа">
+            </div>
+            <div class="promo-part__kids-toys">
+                <p class="promo-part__text">Детские игрушки</p>
+                <img class="promo-part__img" src="img/toy.svg" alt="Конструктор">
+            </div>
+        </div>
+        <div class="best-product">
+            <h2 class="best-product__title">Вязаные корзинки</h2>
+            <p class="best-product__name">Товар недели</p>
+            <picture class="best-product__img">
+                <!-- <source type="image/webp" media="(min-width: 1200px)"
+                        srcset="img/main-city-desktop@1x.webp 1x, img/main-city-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)"
+                        srcset="img/main-city-tablet@1x.webp 1x, img/main-city-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/main-city-mobile@1x.webp 1x, img/main-city-mobile@2x.webp 2x"> -->
+                <source media="(min-width: 1200px)" srcset="img/triple-set/triple-set-desktop@1x.jpg 1x, img/triple-set/triple-set-desktop@1x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/triple-set/triple-set-tablet@1x.jpg 1x, img/triple-set/triple-set-tablet@2x.jpg 2x">
+                <img src="img/triple-set/triple-set-mobile@1x.jpg" srcset="img/triple-set/triple-set-mobile@2x.jpg 2x" width="260" height="315" alt="Корзинки">
+            </picture>
+            <p class="best-product__text">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трёх размерах.</p>
+            <table class="best-product__table">
+                <tr class="best-product__line"><td>Цвет:</td><td>«Тиффани»/серый</td></tr>
+                <tr class="best-product__line"><td>Диаметр:</td><td>25 см</td></tr>
+                <tr class="best-product__line"><td>Высота:</td><td>15 см</td></tr>
+            </table>
+            <div class="best-product__purchase">
+                <p class="best-product__price">Цена: 990 руб.</p>
+                <button class="best-product__button">Заказать</button>
+            </div>
+        </div>
+        <div class="about-us">
+            <h2 class="about-us__tittle">Коротко о нас:</h2>
+            <div class="about-us__element">
+                <img class="about-us__img" src="img/icon-1.svg" alt="Цветок">
+                <p class="about-us__text">Экологически чситые материалы</p>
+            </div>
+            <div class="about-us__element">
+                <img class="about-us__img" src="img/icon-2.svg" alt="Клубок">
+                <p class="about-us__text">Связано вручную с любовью и умилением</p>
+            </div>
+            <div class="about-us__element">
+                <img class="about-us__img" src="img/icon-3.svg" alt="Купюра">
+                <p class="about-us__text">Скандинавский стиль по российской цене</p>
+            </div>
+            <div class="about-us__element">
+                <img class="about-us__img" src="img/icon-4.svg" alt="Ракета">
+                <p class="about-us__text">Поддержка отечественного производителя</p>
+            </div>
+            <div class="about-us__element">
+                <img class="about-us__img" src="img/icon-5.svg" alt="Сердце">
+                <p class="about-us__text">Увеличивает лайки на фотографиях</p>
+            </div>
+            <div class="about-us__element">
+                <img class="about-us__img" src="img/icon-6.svg" alt="Подарок">
+                <p class="about-us__text">Поставляется в подарочной упаковке</p>
+            </div>
+        </div>
+        <div class="review">
+            <h2 class="review__tittle">Отзывы</h2>
+            <button class="review__button">Написать</button>
+            <p class="review__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+            <img class="review__img" src="img/review.jpg" alt="Подставка">
+            <div class="review-author">
+                <p class="review-author__name">Анастасия Красильникова</p>
+                <p class="review-author__inst">@misssssiskras</p>
+            </div>
+            <div> <!-- Убрать div -->
+                <button class="review__button review__button--left"><img src="img/huge-arrow-left.svg" width="50" height="26" alt="Левая стрелка"></button>
+                <button class="review__button review__button--right"><img src="img/huge-arrow-right.svg" width="50" height="26" alt="Правая стрелка"></button>
+            </div>
+        </div>
+        <div class="contacts">
+            <img class="contacts__logo" src="img/flag.svg" alt="Флаг">
+            <h2 class="contacts__tittle">Контакты</h2> 
+            <table class="contacts__table">
+                <tr class="contacts__line"><td>e-mail: </td><td>info.mimimishka.ru</td></tr>
+                <tr class="contacts__line"><td>адрес: </td><td>г. Санкт-Петербург,</tr>
+                <tr><td></td><td>ул. Большая Конюшенная,</td></tr>
+                <tr><td></td><td>д. 19/8, офис 101</td></tr>
+            </table> 
+            <button class="contacts__button">Напишите нам</button>
+            <div> <!-- Убрать div -->
+                <img class="contacts__img" src="img/map-desktop.svg" alt="Карта">
+                <img class="map-pin" src="img/map-pin.svg" alt="Указатель">
+            </div> 
+        </div>  
+    </main>
+    <footer class="footer">
+        <img class="footer__logo" src="img/logo-footer.svg" alt="Логотип Mishka">
+        <a href="#" class="footer__link"><img src="img/vk.svg" width="22" height="22" alt="Иконка VK"></a>  
+        <p class="footer__text">Разработано</p>
+        <a href="https://htmlacademy.ru" class="footer__hyperlink"><img src="img/htmlacademy.svg" alt="Иконка htmlacademy"></a>
+    </footer>
+</body>
+</html>
